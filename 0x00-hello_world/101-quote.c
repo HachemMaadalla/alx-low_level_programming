@@ -6,7 +6,7 @@
 */
 int main(void)
 {
-int i=0;
+int i = 0;
 char x[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
 while (x[i] != '\0')
 {
