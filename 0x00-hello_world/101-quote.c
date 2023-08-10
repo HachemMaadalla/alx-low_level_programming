@@ -6,7 +6,12 @@
 */
 int main(void)
 {
+int i=;
 char x[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
-putchar(x[]);
+while (x[i] != '\0')
+{
+putchar(x[i]);
+i++;
+}
 return (1);
 }
