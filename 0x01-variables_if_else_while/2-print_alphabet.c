@@ -6,7 +6,7 @@
 */
 int main(void)
 {
-char x['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'];
-putchar(x[]);
+char x = "abcdefghijklmnopqrstuvwxyz";
+putchar(x);
 return (0);
 }
