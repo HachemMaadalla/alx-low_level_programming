@@ -11,9 +11,9 @@ for (x = 0 ; x < 10 ; x++)
 {
 	printf("%d", x);
 }
-char x;
-for (x = 'a'; x <= 'f'; x++)
-	putchar(x);
+char y;
+for (y = 'a'; y <= 'f'; y++)
+	putchar(y);
 
 putchar('\n');
 return (0);
