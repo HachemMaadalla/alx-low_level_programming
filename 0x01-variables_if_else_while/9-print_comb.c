@@ -13,6 +13,7 @@ putchar(x + '0');
 putchar(',');
 putchar(' ');
 }
+putchar(',');
 
 printf("\n");
 return (0);
