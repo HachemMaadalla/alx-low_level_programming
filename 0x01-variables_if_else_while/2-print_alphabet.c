@@ -6,7 +6,7 @@
 */
 int main(void)
 {
-char x[] = "abcdefghijklmnopqrstuvwxyz";
+char x;
 for (x = 'a'; x <= 'z'; x++)
 	putchar(letter);
 
