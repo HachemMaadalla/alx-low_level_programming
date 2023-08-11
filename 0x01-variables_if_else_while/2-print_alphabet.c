@@ -7,6 +7,6 @@
 int main(void)
 {
 char x[] = "abcdefghijklmnopqrstuvwxyz";
-putchar(x[]);
+putchar(x[0]);
 return (0);
 }
