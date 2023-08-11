@@ -6,8 +6,8 @@
 */
 int main(void)
 {
-char x[23];
-for (x[] = 'a'; x[] <= 'z'; x[]++)
+char x;
+for (x = 'a'; x <= 'z'; x++)
 	putchar(x);
 
 putchar('\n');
