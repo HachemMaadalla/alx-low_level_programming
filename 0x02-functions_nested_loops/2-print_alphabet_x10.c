@@ -1,10 +1,8 @@
 #include <stdio.h>
 #include "main.h"
 /**
-* main - This is the entry point of the code
-*
-* Return: 0 Successful
-*/
+ * print_alphabet - prints the alphabet in lowercase, followed by a new line.
+ */
 void print_alphabet_x10(void)
 {
 int x = 0;
