@@ -30,7 +30,8 @@ half2 %= 10000000000;
 _putchar(half1 + '0');
 _putchar(half2 + '0');
 if (count != 98)
-_putchar(', ');
+_putchar(',');
+_putchar(' ');
 fib1_half1 = fib2_half1;
 fib1_half2 = fib2_half2;
 fib2_half1 = half1;
