@@ -4,6 +4,8 @@
 * main - This is the entry point of the code
 *
 * print_alphabet - prints the alphabet in lowercase.
+*
+* Return: Nothing.
 */
 void print_alphabet(void)
 {
