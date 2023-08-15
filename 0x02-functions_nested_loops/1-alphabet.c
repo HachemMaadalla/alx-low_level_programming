@@ -3,7 +3,7 @@
 /**
 * main - This is the entry point of the code
 *
-* Return: 0 Successful
+* print_alphabet - prints the alphabet in lowercase.
 */
 void print_alphabet(void)
 {
