@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <main.h>
 /**
 * main - This is the entry point of the code
 *
@@ -9,14 +10,11 @@ int _putchar(char c)
 return putchar(c);
 }
 
-int print_alphabet(void)
+int print_alphabet_x10(void)
 {
-char x;
 for (int i=0; i < 10 ; i++)
 {
-for (x = 'a'; x <= 'z'; x++)
-	_putchar(x);
-_putchar('\n');
+print_alphabet();
 }
 return (0);
 
