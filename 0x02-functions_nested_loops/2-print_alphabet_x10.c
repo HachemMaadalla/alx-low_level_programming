@@ -12,9 +12,3 @@ for (int i=0; i < 10 ; i++)
 print_alphabet();
 }
 }
-
-int main(void)
-{
-print_alphabet();
-return (0);
-}
