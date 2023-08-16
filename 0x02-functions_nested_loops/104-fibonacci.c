@@ -12,7 +12,7 @@ int main(void)
 	unsigned long fib1_half1, fib1_half2, fib2_half1, fib2_half2;
 	unsigned long half1, half2;
 
-	for (i = 0; i < 50; i++)
+	for (i = 0; i < 92; i++)
 	{
 		sum = fib1 + fib2;
 		printf("%lu, ", sum);
@@ -26,7 +26,7 @@ int main(void)
 	fib1_half2 = fib1 % 10000000000;
 	fib2_half2 = fib2 % 10000000000;
 
-	for (i = 51; i < 99; i++)
+	for (i = 93; i < 99; i++)
 	{
 		half1 = fib1_half1 + fib2_half1;
 		half2 = fib1_half2 + fib2_half2;
