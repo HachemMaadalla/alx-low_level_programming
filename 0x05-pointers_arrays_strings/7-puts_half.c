@@ -11,9 +11,10 @@ int len = 0;
 int i;
 int j = 0;
 int half;
-while (str[j++])
+while (str[j])
 {
 len++;
+j++;
 }
 if (len % 2 == 0)
 {
