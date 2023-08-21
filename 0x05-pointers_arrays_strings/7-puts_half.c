@@ -22,7 +22,7 @@ half = len / 2;
 }
 else
 {
-half = (len - 1) / 2;
+half = (len + 1) / 2;
 }
 for (i = half; i < len; i++)
 {
