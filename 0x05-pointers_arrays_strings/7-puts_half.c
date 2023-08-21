@@ -23,7 +23,7 @@ else
 {
 half = (len - 1) / 2;
 }
-for (i = half; i < length; i++)
+for (i = half; i < len; i++)
 {
 _putchar(str[i]);
 }
