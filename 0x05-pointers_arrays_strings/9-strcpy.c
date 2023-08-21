@@ -13,7 +13,7 @@ int i = 0;
 while (src[i])
 {
 dest[i] = src[i];
-i++
+i++;
 }
 return (dest);
 }
