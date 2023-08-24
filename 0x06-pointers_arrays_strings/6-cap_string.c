@@ -2,15 +2,15 @@
 #include "main.h"
 /**
 * cap_string - capitalizes all words of a string.
-* @n : char
-* Return: n
+* @s : char
+* Return: s
 */
 
-char *cap_string(char *n)
+char *cap_string(char *s)
 {
 int i = 0;
 int check = 1;
-while (n[i])
+while (s[i])
 {
 if (s[i] == ' ' || s[i] == '\t' || s[i] == '\n' || s[i] == ',' || s[i] == ';' ||
 s[i] == '.' || s[i] == '!' || s[i] == '?' || s[i] == '"' || s[i] == '(' ||
@@ -27,5 +27,5 @@ check = 0;
 }
 i++;
 }
-return (n);
+return (s);
 }
