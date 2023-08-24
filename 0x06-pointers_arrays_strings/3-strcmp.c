@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
-* _strncpy - copies a string.
+* _strcmp - compare 2 strings
 * @s1 : char
 * @s2 : char
 * Return: return 0
