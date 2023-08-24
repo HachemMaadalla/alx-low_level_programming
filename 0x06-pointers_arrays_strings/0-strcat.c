@@ -7,7 +7,7 @@
 * Return: return dest
 */
 
-char *_strcat(char *dest, char *src);
+char *_strcat(char *dest, char *src)
 {
 i = 0; 
 while (dest[i] != '\0') 
