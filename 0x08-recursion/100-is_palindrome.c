@@ -9,8 +9,8 @@
 char *_end(char *s)
 {
 if (!*s)
-return s - 1;
-return _end(s + 1);
+return (s - 1);
+return (_end(s + 1));
 }
 
 /**
@@ -23,10 +23,10 @@ return _end(s + 1);
 int _is_palindrome(char *start, char *end)
 {
 if (start >= end)
-return 1;
+return (1);
 if (*start != *end)
-return 0;
-return _is_palindrome(start + 1, end - 1);
+return (0);
+return (_is_palindrome(start + 1, end - 1));
 }
 
 /**
@@ -38,5 +38,5 @@ return _is_palindrome(start + 1, end - 1);
 int is_palindrome(char *s)
 {
 char *end = _end(s);
-return _is_palindrome(s, end);
+return (_is_palindrome(s, end));
 }
