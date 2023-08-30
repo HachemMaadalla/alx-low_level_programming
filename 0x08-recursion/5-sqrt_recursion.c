@@ -1,28 +1,32 @@
 #include "main.h"
+
+/**
+ * helper_sqrt - Auxiliary function to calculate natural square root.
+ * @n: int
+ * @root: int
+ *
+ * Return: natural square root or -1.
+ */
+int helper_sqrt(int n, int root)
+{
+if (root * root > n)
+return (-1);
+if (root * root == n)
+return root;
+return helper_sqrt(n, root + 1);
+}
+
 /**
  * _sqrt_recursion - Returns the natural square root of a number.
- * @n: The number to return the square root of.
+ * @n: int
  *
- * Return: natural square root
+ * Return: natural square root or -1.
  */
 int _sqrt_recursion(int n)
 {
-static int root = 0;
 if (n < 0)
 return (-1);
 if (n == 0 || n == 1)
 return n;
-if (root * root > n)
-{
-	root = 0;
-	return (-1);
-}
-if (root * root == n)
-{
-	int temp = root;
-	root = 0;
-	return temp;
-}
-root++;
-return _sqrt_recursion(n);
+return helper_sqrt(n, 2);
 }
