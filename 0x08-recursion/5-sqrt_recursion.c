@@ -14,7 +14,7 @@ if (n == 0 || n == 1)
 return n;
 if (root * root > n)
 {
-	root = 0;  // Reset for potential subsequent calls
+	root = 0;
 	return (-1);
 }
 if (root * root == n)
