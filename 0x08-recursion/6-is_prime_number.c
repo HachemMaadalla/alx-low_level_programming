@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * check_divisor - recursively checks if n is divisible by any number up to n/2.
+ * check_divisor - n is divisible by any number up to n/2.
  * @n: int
  * @div: int
  *
@@ -13,7 +13,7 @@ if (div > n / 2)
 return (1);
 if (n % div == 0)
 return (0);
-return check_divisor(n, div + 1);
+return (check_divisor(n, div + 1));
 }
 
 /**
@@ -28,5 +28,5 @@ if (n <= 1)
 return (0);
 if (n == 2 || n == 3)
 return (1);
-return check_divisor(n, 2);
+return (check_divisor(n, 2));
 }
