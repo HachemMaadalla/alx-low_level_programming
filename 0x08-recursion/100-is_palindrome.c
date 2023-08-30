@@ -14,7 +14,7 @@ return (_end(s + 1));
 }
 
 /**
- * _is_palindrome - Recursively checks if a segment of a string is a palindrome.
+ * _is_palindrome - if a segment of a string is a palindrome.
  * @start: Pointer to the start of the segment.
  * @end: Pointer to the end of the segment.
  *
