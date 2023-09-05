@@ -9,28 +9,28 @@
  */
 int **alloc_grid(int width, int height)
 {
-int **2d;
+int **dd;
 int h_index, w_index;
 if (width <= 0 || height <= 0)
 return (NULL);
-2d = malloc(sizeof(int *) * height);
-if (2d == NULL)
+dd = malloc(sizeof(int *) * height);
+if (dd == NULL)
 return (NULL);
 for (h_index = 0; h_index < height; h_index++)
 {
-2d[h_index] = malloc(sizeof(int) * width);
-if (2d[h_index] == NULL)
+dd[h_index] = malloc(sizeof(int) * width);
+if (dd[h_index] == NULL)
 {
 for (; h_index >= 0; h_index--)
-free(2d[h_index]);
-free(2d);
+free(dd[h_index]);
+free(dd);
 return (NULL);
 }
 }
 for (h_index = 0; h_index < height; h_index++)
 {
 for (w_index = 0; w_index < width; w_index++)
-2d[h_index][w_index] = 0;
+dd[h_index][w_index] = 0;
 }
-return (2d);
+return (dd);
 }
